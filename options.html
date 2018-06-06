@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+<center>
+        <h1 style="color: white;">Welcome User</h1>
+    <!--<img src="img/coffee_shop.jpg" class="coffeeImage">-->
+</center>
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1 style="color: white;">Select from the following task</h1>
+    </div>
+    <div class="card card-container">
+        <!--<p class="modal-header"></p>-->
+        <img id="profile-img" class="profile-img-card" src="admin.jpg" />
+        <br><br>
+        <button 
+        class="btn btn-group-sm btn-primary btn-block" onclick="insert(); return false;" >Insert</button>
+        <button class="btn btn-group-sm btn-primary btn-block" onclick="enquire(); return false;" >Enquire</button>
+        <button class="btn btn-group-sm btn-primary btn-block" onclick="del(); return false;">Delete</button>
+        <button class="btn btn-group-sm btn-primary btn-block" onclick="update(); return false;">Update</button>
+
+
+        <br>
+        <br>
+        <button class="btn btn-group-sm btn-primary btn-block" onclick="logout(); return false;" >Log Out</button>
+    </div>
+</div>
+<script src="scripts/options.js"></script>
+</body>
+</html>

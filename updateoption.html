@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <img id="profile-img" class="profile-img-card" src="img/update.jpg"/>
+        <div class="page-header">
+            <h1 style="color: white;">Select the method</h1>
+        </div
+        <div class="card card-container">
+        <div class="form-group"> 
+        <!-- <form onsubmit="return isChecked();">-->
+        <input type="radio" name="radioSelect" value="price" id="A">Price
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="radio" name="radioSelect" value="count" id="B">Count<br><br>
+
+        <button class="btn btn-group-sm btn-primary btn-block" onclick="isChecked(); return false;" >Submit</button>
+        <br>
+        <button class="btn btn-group-sm btn-primary btn-block" onclick="goback(); return false;" >Go Back</button>
+        <!-- </form> -->
+        </div>
+    </div>
+    <script src="scripts/updateoption.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+	<body>
+<center>
+        <h1 style="color: white;">Welcome to the Coffee Shop Menu</h1>
+
+	<!--<img src="img/coffee_shop.jpg" class="coffeeImage">-->
+</center>
+	<div class="container">
+		<div class="card card-container">
+			<div class="page-header">
+           </div>
+			<img id="profile-img" class="profile-img-card" src="img/shop.jpg"/>
+			<p id="profile-name" class="profile-name-card"></p>
+			<form class="form-signin">
+				<span id="reauth-email" class="reauth-email"></span>
+				<input type="text" id="inputEmail" class="form-control" placeholder="User-Name" required autofocus>
+				<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+				<button class="btn btn-lg btn-primary btn-block btn-signin" onclick="login(); return false;" >Log in</button>
+			</form><!-- /form -->
+		</div><!-- /card-container -->
+	</div><!-- /container -->
+
+	<script src="scripts/index.js"></script>
+	</body>
+</html>

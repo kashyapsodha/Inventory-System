@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1 style="color: white;">Enter the coffee details</h1>
+        </div>
+
+        <div class="card card-container">
+            <div class="form-group">
+                <label for="cname">Coffee Name:</label>
+                <input type="text" class="form-control" id="cname">
+            </div>
+
+            <div class="form-group">
+                <label for="cprice">Coffee Price:</label>
+                <input type="text" class="form-control" id="cprice">
+            </div>
+
+            <div class="form-group">
+                <label for="ccalories">Coffee Calories:</label>
+                <input type="text" class="form-control" id="ccalories">
+            </div>
+
+            <div class="form-group">
+                <label for="csize">Coffee Size:</label>
+                <input type="text" class="form-control" id="csize">
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block btn-signin" onclick="submit(); return false;" >Add</button>
+            <button class="btn btn-lg btn-primary btn-block btn-signin" onclick="goBack(); return false;" >Go Back</button>
+        </div>
+    </div>
+
+    <script src="scripts/add.js"></script>
+</body>
+</html>
